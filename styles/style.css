@@ -98,3 +98,25 @@
   .container button:hover {
     background-color: hsl(150, 59%, 54%);
   }
+  
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 4rem;
+    color: var(--Light-Cyan);
+}
+
+.attribution a {
+    color: hsl(228,45%,44%);
+    transition: color 0.3s ease-in-out;
+}
+
+.attribution a:hover {
+    color: #fff;
+}
+
+@media (min-width: 500px) {
+    .container {
+      max-width: 480px;
+    }
+  }
